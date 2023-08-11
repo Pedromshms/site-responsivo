@@ -13,7 +13,7 @@
     display: none;
 }
 @media screen and (min-width: 1024px)
-    .cabecalho-titulo{
+    .cabecalho-titulo {
     display:flex
 }
 .cabecalho-imagem-transparente{
