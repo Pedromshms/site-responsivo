@@ -6,15 +6,19 @@
     position: relative;
     }
     
-.cabeçalho-menu-hamburguer {
+    .cabecalho-menu-hamburguer {
     width: 24px;
     height: 24px;
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
-}
-
+    }
+    
+    .container-imagem{
+    padding: 1em;
+    }
+    
     .container {
     display: flex;
     align-items: center;
@@ -24,17 +28,16 @@
     display: none;
     }
     
-.container-menu{
+    .container-menu{
     display: none;
     position: absolute;
     top: 100%;
-}
-
-
-.container-botao:checked~.lista-menu{
+    }
+    
+    .container-botao:checked~.container-menu {
     display: block;
-}
-
+    }
+    
     @media screen and (min-width: 1024px) {
     .cabecalho-titulo {
     display: flex;
@@ -43,4 +46,5 @@
     .cabecalho-imagem-transparente {
     display: none;
     }
-    }   
+    }
+    
