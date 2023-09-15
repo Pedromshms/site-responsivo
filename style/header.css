@@ -32,10 +32,26 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
     }
     
     .container-botao:checked~.container-menu {
     display: block;
+    }
+    
+    .menu-item, .menu-item-titulo {
+    padding: 1em;
+    background-color: var(--branco);
+    }
+    
+    .menu-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--azul-degrade);
+    }
+    
+    .menu-item-titulo {
+    color: var(--laranja);
     }
     
     @media screen and (min-width: 1024px) {
@@ -47,4 +63,3 @@
     display: none;
     }
     }
-    
