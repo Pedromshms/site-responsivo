@@ -1,0 +1,19 @@
+@import url("styes/header.css");
+@import url("styes/banner.css");
+@import url("styes/carrossel.css");
+
+:root{
+    --cor-de-fundo:#EBECEE;
+    --branco: #FFFFFF;
+    --azul-degrade: #326589;
+    --laranja: #EB9B00;
+    --fonte-prinipal: "Poppins"
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-prinipal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
