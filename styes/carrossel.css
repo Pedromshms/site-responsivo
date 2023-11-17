@@ -6,7 +6,6 @@
     font: size 18px;
     font-weight: 700;
     padding: 1em 0 0.5em 0;
-
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -24,8 +23,33 @@
 
 .card-1{
     display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
 }
 
 .card-2{
     display: flex;
+}
+
+.botões{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    border-radius: 10px;
+    background: 1em;
+    padding: 1em;
+}
+
+.card-titulo-1{
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.card-titulo-2{
+    color:var(--azul-degrade);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
 }
